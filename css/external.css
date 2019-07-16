@@ -1,0 +1,290 @@
+article:nth-of-type(1)
+{
+    color: aqua;
+    text-decoration: none
+}
+a{
+    text-decoration:inherit;
+}
+
+article{
+    text-decoration:underline;
+}
+
+article:nth-of-type(2)
+{
+    text-decoration:overline
+
+}
+
+
+#helloluia
+{
+    color: blueviolet
+}
+
+p
+{
+    font-weight:lighter;
+    font-family:"yu Gothic";
+}
+h1{
+    font-weight: normal;
+}
+
+/* 
+#header h1{ text-transform: capitalize} */
+
+
+#header > h1
+{
+    text-transform:uppercase;
+}
+article{ text-transform: uppercase}
+
+#content > p
+{
+    text-transform: capitalize;
+}
+
+
+.para1
+{
+    color: aqua
+
+}
+
+#para2
+{
+   color: brown
+
+}
+#content
+{
+    background:url("https://images.pexels.com/photos/2411688/pexels-photo-2411688.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+}
+#content{
+    color: chartreuse
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold
+}
+
+a:hover{
+    color: deepskyblue;
+    
+    background: chartreuse;
+    text-decoration: underline;
+}
+
+
+
+article{
+   /* letter-spacing: 0.2px;
+   word-spacing: 24px;
+    */
+    
+    font-size: 12px;
+    line-height:2em; 
+}
+
+.box
+{
+    margin:30px;
+    padding:30px;
+    border:1px solid black;
+    width: 400px;
+    height: 200px;
+    margin:20px auto; 
+
+}
+
+
+
+.mybox
+{
+    border:2px solid black;
+    /* width: 200px; */
+    width:50%;
+    height: 200px;
+    padding:20px;
+    /* margin:20px auto;   */
+    /* top right bottom left */
+    margin:20px 25%;
+    padding:30px 40%;
+
+}
+
+#halo
+{
+   border:2px dotted black;
+   width:400px;
+   height: 500px;
+   margin:20px auto;
+   padding: 30px;
+   border-top: 2px dotted beige;
+   border-bottom: red
+}
+
+.dd
+{
+border: 1px solid gold;
+height: 200px;
+width: 300px;
+margin-left:40px; 
+}
+
+#banner
+{
+
+    width: 100%;
+    height: 300px;
+    background-color: bisque
+}
+
+
+.block
+{
+    border:1px solid gray;
+    border-radius:30px;
+
+    
+}
+
+.inline
+{
+    border:2px solid black;
+   padding: 40px;
+   margin: 10px;
+   width: 100px;
+   height: 100px;
+   border-radius:50px;
+   background: #12a400;
+ display:inline-block;
+
+}
+
+.static
+{ width:300px;
+    height:200px;
+border:2px dotted gray;}
+    
+
+
+    .percentage
+    {
+        width: 70%;
+        height:200px;
+        border:2px dotted blue;
+    }
+   
+
+
+    .inline{
+        width:40%;
+        
+        display:inline-block;
+
+    }
+
+    #im
+    {
+        width:400px;
+        height:400px;
+        background-color:gray;
+background-image:url("https://image.shutterstock.com/image-illustration/3d-rendered-small-letter-w-600w-447949522.jpg");
+
+background-repeat:no-repeat;     
+/* background-position:center; */
+/* background-position:top right;  */
+
+
+background-position:bottom center;
+ background-size: 200px;
+
+
+    }
+    
+
+    #banner
+    {
+        background-color: #606060;
+        width: 100%;
+        height: 300px;
+        background-image:url(https://static.vecteezy.com/system/resources/thumbnails/000/106/881/small/free-strass-vector-gold-glitter-texture-on-black-background.jpg), url(https://images.pexels.com/photos/2411688/pexels-photo-2411688.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px,100%;
+    }
+
+    #circle
+    {
+        width:400px;
+        height:400px;
+        position:absolute;
+        background: rgb(200,200,100);
+        border-radius:200px;
+        top:50px;
+        left: 50px;
+        opacity:0.5;
+        text-align: center;
+
+
+    }
+
+    #circle-2
+    {
+        width:400px;
+        height:400px;
+        position:absolute;
+        background: rgb(200,100,200);
+        border-radius:200px;
+        top:250px;
+        left: 150px;
+        opacity:0.3;
+        text-align: center;
+        
+
+    }
+
+    #circle-3
+    {
+        width:400px;
+        height:400px;
+        position:absolute;
+        background: rgb(100,200,200);
+        border-radius:200px;
+        top:50px;
+        left: 250px;
+        opacity:1;
+        text-align: center;
+        
+
+    }
+
+
+    .button
+    {
+      display: block;
+
+        width: 100px;
+        border:1px solid #77aaaa;
+        padding: 12px;
+        font-family: arial;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        border-radius: 4px;
+
+    
+        /* background:#aadddd; */
+        
+        background:-webkit-linear-gradient(top,#aadddd 0%,#77aaaa 100%);
+        background:-moz-linear-gradient(top,#aadddd 0%,#77aaaa 100%);
+
+        
+    }
